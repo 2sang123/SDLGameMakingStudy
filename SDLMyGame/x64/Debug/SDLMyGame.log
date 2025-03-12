@@ -1,0 +1,19 @@
+﻿  Actor.cpp
+  BoxComponent.cpp
+  Button.cpp
+  Component.cpp
+  Game.cpp
+  InputComponent.cpp
+  main.cpp
+  Math.cpp
+  MoveComponent.cpp
+  PhysicsComponent.cpp
+  Plane.cpp
+  Player.cpp
+  Shader.cpp
+  SpriteComponent.cpp
+  Star.cpp
+  Texture.cpp
+  VertexArray.cpp
+  코드를 생성하고 있습니다...
+  SDLMyGame.vcxproj -> D:\작업물\코드 정리\SDL_study\SDLMyGame\x64\Debug\SDLMyGame.exe

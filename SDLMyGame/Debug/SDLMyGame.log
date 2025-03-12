@@ -1,0 +1,61 @@
+﻿  Actor.cpp
+  Component.cpp
+  Game.cpp
+  InputComponent.cpp
+  main.cpp
+  Math.cpp
+  MoveComponent.cpp
+  Player.cpp
+  Shader.cpp
+  SpriteComponent.cpp
+  Texture.cpp
+  VertexArray.cpp
+  코드를 생성하고 있습니다...
+Game.obj : error LNK2019: _SDL_GetError"public: bool __thiscall Game::Initialize(void)" (?Initialize@Game@@QAE_NXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+Game.obj : error LNK2019: _SDL_CreateWindow"public: bool __thiscall Game::Initialize(void)" (?Initialize@Game@@QAE_NXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+Game.obj : error LNK2019: _SDL_DestroyWindow"public: void __thiscall Game::Shutdown(void)" (?Shutdown@Game@@QAEXXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+Game.obj : error LNK2019: _SDL_GL_SetAttribute"public: bool __thiscall Game::Initialize(void)" (?Initialize@Game@@QAE_NXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+Game.obj : error LNK2019: _SDL_GL_CreateContext"public: bool __thiscall Game::Initialize(void)" (?Initialize@Game@@QAE_NXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+Game.obj : error LNK2019: _SDL_GL_SwapWindow"private: void __thiscall Game::GenerateOutput(void)" (?GenerateOutput@Game@@AAEXXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+Game.obj : error LNK2019: _SDL_GL_DeleteContext"public: void __thiscall Game::Shutdown(void)" (?Shutdown@Game@@QAEXXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+Game.obj : error LNK2019: _SDL_GetKeyboardState"private: void __thiscall Game::ProcessInput(void)" (?ProcessInput@Game@@AAEXXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+Game.obj : error LNK2019: _SDL_PollEvent"private: void __thiscall Game::ProcessInput(void)" (?ProcessInput@Game@@AAEXXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+Game.obj : error LNK2019: _SDL_Log"public: bool __thiscall Game::Initialize(void)" (?Initialize@Game@@QAE_NXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+Shader.obj : error LNK2001: 확인할 수 없는 외부 기호 _SDL_Log
+Texture.obj : error LNK2001: 확인할 수 없는 외부 기호 _SDL_Log
+Game.obj : error LNK2019: _SDL_GetTicks"public: bool __thiscall Game::Initialize(void)" (?Initialize@Game@@QAE_NXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+Game.obj : error LNK2019: _SDL_Init"public: bool __thiscall Game::Initialize(void)" (?Initialize@Game@@QAE_NXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+Game.obj : error LNK2019: _SDL_Quit"public: void __thiscall Game::Shutdown(void)" (?Shutdown@Game@@QAEXXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+Game.obj : error LNK2019: __imp__glewInit@0"public: bool __thiscall Game::Initialize(void)" (?Initialize@Game@@QAE_NXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+Game.obj : error LNK2019: __imp__glewExperimental"public: bool __thiscall Game::Initialize(void)" (?Initialize@Game@@QAE_NXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+Shader.obj : error LNK2019: __imp____glewAttachShader"public: bool __thiscall Shader::Load(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?Load@Shader@@QAE_NABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
+Shader.obj : error LNK2019: __imp____glewCompileShader"private: bool __thiscall Shader::CompileShader(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,unsigned int,unsigned int &)" (?CompileShader@Shader@@AAE_NABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@IAAI@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
+Shader.obj : error LNK2019: __imp____glewCreateProgram"public: bool __thiscall Shader::Load(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?Load@Shader@@QAE_NABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
+Shader.obj : error LNK2019: __imp____glewCreateShader"private: bool __thiscall Shader::CompileShader(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,unsigned int,unsigned int &)" (?CompileShader@Shader@@AAE_NABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@IAAI@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
+Shader.obj : error LNK2019: __imp____glewDeleteProgram"public: void __thiscall Shader::Unload(void)" (?Unload@Shader@@QAEXXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+Shader.obj : error LNK2019: __imp____glewDeleteShader"public: void __thiscall Shader::Unload(void)" (?Unload@Shader@@QAEXXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+Shader.obj : error LNK2019: __imp____glewGetProgramInfoLog"private: bool __thiscall Shader::IsValidProgram(void)" (?IsValidProgram@Shader@@AAE_NXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+Shader.obj : error LNK2019: __imp____glewGetProgramiv"private: bool __thiscall Shader::IsValidProgram(void)" (?IsValidProgram@Shader@@AAE_NXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+Shader.obj : error LNK2019: __imp____glewGetShaderInfoLog"private: bool __thiscall Shader::IsCompiled(unsigned int)" (?IsCompiled@Shader@@AAE_NI@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
+Shader.obj : error LNK2019: __imp____glewGetShaderiv"private: bool __thiscall Shader::IsCompiled(unsigned int)" (?IsCompiled@Shader@@AAE_NI@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
+Shader.obj : error LNK2019: __imp____glewGetUniformLocation"public: void __thiscall Shader::SetMatrixUniform(char const *,class Matrix4 const &)" (?SetMatrixUniform@Shader@@QAEXPBDABVMatrix4@@@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
+Shader.obj : error LNK2019: __imp____glewLinkProgram"public: bool __thiscall Shader::Load(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?Load@Shader@@QAE_NABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
+Shader.obj : error LNK2019: __imp____glewShaderSource"private: bool __thiscall Shader::CompileShader(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,unsigned int,unsigned int &)" (?CompileShader@Shader@@AAE_NABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@IAAI@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
+Shader.obj : error LNK2019: __imp____glewUniformMatrix4fv"public: void __thiscall Shader::SetMatrixUniform(char const *,class Matrix4 const &)" (?SetMatrixUniform@Shader@@QAEXPBDABVMatrix4@@@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
+Shader.obj : error LNK2019: __imp____glewUseProgram"public: void __thiscall Shader::SetActive(void)" (?SetActive@Shader@@QAEXXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+VertexArray.obj : error LNK2019: __imp____glewBindBuffer"public: __thiscall VertexArray::VertexArray(float const *,unsigned int,unsigned int const *,unsigned int)" (??0VertexArray@@QAE@PBMIPBII@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
+VertexArray.obj : error LNK2019: __imp____glewBufferData"public: __thiscall VertexArray::VertexArray(float const *,unsigned int,unsigned int const *,unsigned int)" (??0VertexArray@@QAE@PBMIPBII@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
+VertexArray.obj : error LNK2019: __imp____glewDeleteBuffers"public: __thiscall VertexArray::~VertexArray(void)" (??1VertexArray@@QAE@XZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+VertexArray.obj : error LNK2019: __imp____glewGenBuffers"public: __thiscall VertexArray::VertexArray(float const *,unsigned int,unsigned int const *,unsigned int)" (??0VertexArray@@QAE@PBMIPBII@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
+VertexArray.obj : error LNK2019: __imp____glewEnableVertexAttribArray"public: __thiscall VertexArray::VertexArray(float const *,unsigned int,unsigned int const *,unsigned int)" (??0VertexArray@@QAE@PBMIPBII@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
+VertexArray.obj : error LNK2019: __imp____glewVertexAttribPointer"public: __thiscall VertexArray::VertexArray(float const *,unsigned int,unsigned int const *,unsigned int)" (??0VertexArray@@QAE@PBMIPBII@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
+VertexArray.obj : error LNK2019: __imp____glewBindVertexArray"public: __thiscall VertexArray::VertexArray(float const *,unsigned int,unsigned int const *,unsigned int)" (??0VertexArray@@QAE@PBMIPBII@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
+VertexArray.obj : error LNK2019: __imp____glewDeleteVertexArrays"public: __thiscall VertexArray::~VertexArray(void)" (??1VertexArray@@QAE@XZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+VertexArray.obj : error LNK2019: __imp____glewGenVertexArrays"public: __thiscall VertexArray::VertexArray(float const *,unsigned int,unsigned int const *,unsigned int)" (??0VertexArray@@QAE@PBMIPBII@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
+MSVCRTD.lib(exe_main.obj) : error LNK2019: _main"int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+D:\ex_libs\SDL2-devel-2.30.3-VC\SDL2-2.30.3\lib\x64\SDL2.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+D:\ex_libs\SDL2-devel-2.30.3-VC\SDL2-2.30.3\lib\x64\SDL2main.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+D:\ex_libs\glew-2.2.0-win32\glew-2.2.0\lib\Release\x64\glew32.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+D:\ex_libs\glew-2.2.0-win32\glew-2.2.0\lib\Release\x64\glew32s.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+D:\ex_libs\SDL2-devel-2.30.3-VC\SDL2-2.30.3\lib\x64\SDL2_image.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+D:\작업물\코드 정리\SDL_study\SDLMyGame\Debug\SDLMyGame.exe : fatal error LNK1120: 40개의 확인할 수 없는 외부 참조입니다.
